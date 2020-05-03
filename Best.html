@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang=pl>
+<head>
+	<title>7 cudownych żon Henryka VIII</title>
+	<meta charset=utf-8>
+	<link rel="stylesheet" type="text/css" href="arkusz/style.css" > 
+	<script>
+function showName(){
+   document.getElementById("pole").innerHTML = "Jednak imię najlepszej żony Henryka VIII to "+document.getElementById("imie").value;
+}
+</script>
+</head>
+<body>
+	<div class="content">
+		<div class="header1"><h1><span>6+1 cudownych żon Henryka VIII</span></h1></div><br>
+		<div class="header3"><h4>Najlepsza żona Henryka VIII</h4></div>
+		<div class="header2"><h2>Powtarzająca się historia, czyli o żonach króla Anglii</h2></div>
+		<div class="m1"><br><h2><div class="m2">
+                    <ul>
+                        <li><a href="#ws">Wstęp</a></li>
+                        <li><a href="#ga">Galeria</a></li>
+                    </ul>
+					</h2></div>
+		<div class="m2"><br><h2>
+		<ol>
+                        <li><a href=Aaragon.html>♥</a></li>
+                        <li><a href=Boleyn.html>♥</a></li>
+						<li><a href=Seymour.html>♥</a></li>
+						<li><a href=Cleves.html>♥</a></li>
+						<li><a href=Howard.html>♥</a></li>
+						<li><a href=Paar.html>♥</a></li>
+						<li><a href=Best.html>♥</a></li>
+						<li><a href=index.html>Back</a>
+		</h2></div>
+	<div class="aside">
+	<br><br>
+		<h3>Najlepsza żona</h3>
+			<p><a id=ws></a>Historycy spierają się do dziś, która z żon Henryka była najważniejsza i najbardziej wpływowa. Prawdą jest, że kobiety bardzo się różniły, podobnie jak ich wpływ na dwór oraz państwo. Jednak wszystkie dzieliły podobny los - nie dostały szansy na szczęśliwe długie życie z kochającą je drugą połówką. Wszystkie jednak były cudownymi kobietami, które mogły stanowić wzór dla innych.</p>
+		<input type="text" id="imie" name="imie" value="" />
+<input type="button" id="but" name="but" value="ok" onclick="showName();" />
+<div id="pole">
+(Proszę wpisać swoje imię :))
+</div>
+		<h2>Galeria</h2>	
+<p>
+<div class="w3-content w3-section" style="width:300px;
+height:150px
+;>
+  <img class="mySlides" src="foto/a1.jpg" style="width:100%">  
+  <img class="mySlides" src="foto/b2.jpg" style="width:100%">
+  <img class="mySlides" src="foto/c1.jpg" style="width:100%">
+  <img class="mySlides" src="foto/s1.jpg" style="width:100%">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000);
+}
+</script>
+</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<a id=ga></a>
+	<form action="dostogaysky@gmail.com" method=post>
+<h3>Pytanie 1</h3>
+<p>Czy strona pomogła dowiedzieć Ci się więcej o królowych Anglii?</p><br>
+ <input type="radio" id="nie" name="reception" value="nie">
+  <label for="Nie">Nie</label><br>
+ <input type="radio" id="tak" name="reception" value="tak">
+  <label for="tak">Tak</label><br>
+<h2>Pytanie 2</h2>
+<p>Która z królowych była Twoim zdaniem najważniejsza?</p><br>
+  <input type="checkbox" id="aaragon" name="aaragon" value="aaragon">
+  <label for="aaragon">Katarzyna Aragońska</label><br>
+  <input type="checkbox" id="boleyn" name="boleyn" value="boleyn">
+  <label for="boleyn">Anna Boleyn</label><br>
+  <input type="checkbox" id="seymour" name="seymour" value="seymour">
+  <label for="seymour">Jane Seymour</label><br>
+  <input type="checkbox" id="cleves" name="cleves" value="cleves">
+  <label for="cleves">Anna Kliwijska</label><br>
+  <input type="checkbox" id="howard" name="howard" value="howard">
+  <label for="howard">Katarzyna Howard</label><br> 
+  <input type="checkbox" id="parr" name="parr" value="parr">
+  <label for="parr">Katarzyna Parr</label><br>  
+  <br>
+<h3>Masz jakieś sugestie/komentarze?</h3>
+  <label>-><textarea name="message" rows="3" cols="100">Miłego dnia!</textarea></label><br><br>
+  <input type="submit" value="Wyślij">
+</form>
+<br><br>
+<p>Zapraszam ponownie na stronę!</p>
+<br><br><br><br><br><br>
+		<div class="footer">
+        Karina Drobek 2ta
+        </div>
+</body>
+</html>
