@@ -17,6 +17,7 @@
 
 		.aside { float: left; width: 80%;  height: 1430px; background-color:#fdf1ef;} 
 		.footer{ width: 100%;  height: 50px; clear:both;text-align:center; padding-top:10px;color:8e4939;} 
+                #logo{ margin-top: 10px;}
 		img{ margin-top:20px; border-style:double; border-width:5pt;}
                 
 		ol{font-family:Arial;list-style-type:upper-roman;padding-left:100px; color:#f6bdaf}
