@@ -1,2 +1,0 @@
-# gaygol.github.io
-website
